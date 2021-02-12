@@ -1,0 +1,36 @@
+.productlist main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  gap: 2rem;
+}
+.productlist main h2 {
+  grid-column: 1/-1;
+}
+.productlist article h3 {
+  font-size: 1rem;
+  flex-grow: 3;
+}
+.productlist article > * {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.subtle {
+  color: #d8d8d8cc;
+}
+.productlist article {
+  display: flex;
+  flex-direction: column;
+}
+
+.productlist article button {
+  margin-top: auto;
+}
+.productlist article {
+  margin-bottom: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
