@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: "Karla", sans-serif;
+}
+
+.mainNav h1 span {
+  display: inline-block;
+  transform: scaleX(-1);
+  font-family: "Karla", sans-serif;
+}
+.mainNav > * {
+  margin: 0;
+}
+
+article {
+  padding-bottom: 1rem;
+  font-family: "Karla", sans-serif;
+}
+footer {
+  padding-top: 2rem;
+  font-family: "Karla", sans-serif;
+}

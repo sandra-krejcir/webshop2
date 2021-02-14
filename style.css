@@ -1,14 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+h1 {
+  font-family: "Karla", sans-serif;
+}
+.mainNav h1 span {
+  display: inline-block;
+  transform: scaleX(-1);
+  font-family: "Karla", sans-serif;
+}
+
+li {
+  font-family: "Karla", sans-serif;
+}
 .productlist main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
   gap: 2rem;
+  font-family: "Karla", sans-serif;
 }
 .productlist main h2 {
   grid-column: 1/-1;
+  font-family: "Karla", sans-serif;
 }
 .productlist article h3 {
   font-size: 1rem;
   flex-grow: 3;
+  font-family: "Karla", sans-serif;
 }
 .productlist article > * {
   margin: 0;
@@ -20,13 +37,16 @@
 .productlist article {
   display: flex;
   flex-direction: column;
+  font-family: "Karla", sans-serif;
 }
 
 .productlist article button {
   margin-top: auto;
+  font-family: "Karla", sans-serif;
 }
 .productlist article {
   margin-bottom: 1rem;
+  font-family: "Karla", sans-serif;
 }
 
 img {
@@ -43,4 +63,9 @@ img {
   background: var(--color);
   color: var(--background-color);
   padding: 1rem;
+  font-family: "Karla", sans-serif;
+}
+footer {
+  padding-top: 2rem;
+  font-family: "Karla", sans-serif;
 }

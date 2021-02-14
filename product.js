@@ -10,9 +10,9 @@ fetch(url)
 function viewProduct(product) {
   console.log(product);
   document.querySelector(".breadcrumbs .brandName").textContent =
-    product.brandname;
+    ">" + product.brandname;
   document.querySelector(".breadcrumbs .prodName").textContent =
-    product.productdisplayname;
+    ">" + product.productdisplayname;
   document.querySelector(
     "img"
   ).src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
